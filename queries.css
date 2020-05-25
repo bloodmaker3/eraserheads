@@ -1,0 +1,73 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) {
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    
+    .navbar img {
+        width: auto;
+        height: 95%;
+        padding-left: 10px;
+    }
+    
+    .section-abt p {
+        font-size: 130%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+        margin: 10% 40px 0 40px;
+        border-radius: 5px;
+        padding: 20px 20px;
+        text-align: justify;
+    }
+    
+    .members {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 80%;
+    }
+    
+    .members img {
+        height: 300px;
+        width: auto;
+    }
+    
+    .albums-container {
+        width: 68%;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+    
+    .social-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .img-links {
+    /* margin: 0 0 0 auto; */
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    
+    .links {
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    
+    .social-links a {
+        text-decoration: none;
+        color: #000;
+        font-size: 120%;
+    }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (max-width: 1200px) {
+        
+        
+    }

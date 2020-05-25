@@ -1,0 +1,285 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 300%;
+    text-align: center;
+    color: #33030d;
+    text-shadow: 1px 1px 3px #f2f2f2;
+    background-color: #ffffff;
+    margin: 30px 0 5px 0;
+}
+
+h3 {
+    font-size: 120%;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*******************/
+/* HEADER/NAVBAR */
+/*******************/
+
+header {
+    background-color: #000;
+    width: 100%;
+}
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+    display: grid;
+    grid-column: span 2;
+}
+
+.navbar img {
+    width: auto;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.hdr-link {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.hdr-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.hdr-link a:hover {
+    color: red;
+}
+
+/*******************/
+/* HEADER */
+/*******************/
+
+.hero-img {
+    background-image: linear-gradient(rgba(154, 154, 154, 0.6), rgba(154, 154, 154, 0.6)), url(https://i2.wp.com/www.starmometer.com/wp-content/uploads/2016/08/Eraserheads.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 275px;
+    font-size: 400%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #525252;
+    color: #000;
+    font-weight: 500;
+}
+
+/*******************/
+/* ABOUT */
+/*******************/
+
+.section-abt {
+    background-image: linear-gradient(rgba(118, 118, 118, 0.8), rgba(0, 0, 0, 0.5)), url(https://cdn.filestackcontent.com/KqJfQEoSla7lNZTXWmZw/convert?cache=true&crop=0%2C0%2C1920%2C960);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+.section-abt p {
+    font-size: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    margin: 15% 40px 0 40px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+/*******************/
+/* MEMBERS */
+/*******************/
+
+.section-members {
+    height: 100vh;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-image: repeating-radial-gradient(#22070c, #c30b32);
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.members img {
+    display: block;
+    margin: 10px auto 1px auto;
+    border-radius: 5px;
+    width: auto;
+    height: 400px;
+}
+
+.ray ul,
+.ely ul,
+.marcus ul,
+.buddy ul {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.ray li,
+.ely li,
+.marcus li,
+.buddy li,
+.youtube-link{
+    list-style: none;
+    padding: 3px;
+    font-weight: 300;
+    font-size: 90%;
+    color: white;
+}
+
+.members h3 {
+    color: white;
+}
+
+.youtube-link {
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 150%;
+    display: inline-block;
+    text-align: center;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*******************/
+/* DISCOGRAPHY */
+/*******************/
+
+.section-disc {
+    height: 100vh;
+}
+
+.albums-container {
+    width: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 10px;
+}
+
+.albums {
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.albums:hover {
+    opacity: 1.0;
+}
+
+#album {
+    display: grid;
+    text-align: center;
+    font-size: 95%;
+    font-weight: bold;
+}
+
+#year {
+    display: grid;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*******************/
+/* SOCIAL */
+/*******************/
+
+.section-social {
+    height: 95vh;
+}
+
+.social-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.img-links {
+    margin: 0 0 0 auto;
+    padding-top: 50px;
+}
+
+.img-links img {
+    border-radius: 5px;
+}
+
+.links {
+    margin: auto auto auto 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.fab-social {
+    display: inline-block;
+    width: 140px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.fab-social-fb:hover {
+    color: #1877f2;
+}
+
+.fab-social-yt:hover {
+    color: #ff0000;
+}
+
+.fab-social-spt:hover {
+    color: #1ed760;
+}
+
+footer p {
+    text-align: center;
+    font-size: 80%;
+    width: 100%;
+    background-color: #000;
+    color: #747474;
+    
+}
